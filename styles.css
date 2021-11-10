@@ -18,9 +18,15 @@ body{
     width: 100%;
     background-color: black;
     color: white;
-    text-align: right;
+    text-align: center;
     margin-bottom: 4px;
-    padding: 40px;
+    padding: 20px;
+}
+.angka-wrapper{
+    padding: 10px;
+}
+.hasil-wrapper{
+    padding: 10px;
 }
 .display span{
     padding: 20px;
@@ -29,7 +35,8 @@ body{
 .button-wrapper{
     display: flex;
 }
-.buttons{
+
+.number{
     flex-basis: 25%;
     background-color: black;
     padding: 35px;
@@ -40,13 +47,13 @@ body{
     cursor: pointer;
     transition: .2s ease-in-out;
 }
-.buttons:hover{
+.number:hover{
     font-weight: bold;
     background-color: transparent;
     color: black;
     border: 1px solid black;
 }
-.buttons:active{
+.number:active{
     line-height: 20px;
 }
 .top{
