@@ -99,7 +99,7 @@ body{
     position: absolute;
     background-color: #f9c74f;
     transform: rotate(40deg);
-    z-index: -2;
+    z-index: -4;
     animation: bg4 4s ease-in-out;
 }
 @keyframes bg4 {
