@@ -120,7 +120,7 @@ section{
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+
     /* justify-content: center;
     align-items: center; */
 }
@@ -151,7 +151,7 @@ section{
 }
 
 .number{
-    flex-basis: 25%;
+    width: 25%;
     background-color: #5d6268;
     padding: 35px;
     font-size: 1.3em;
@@ -264,5 +264,8 @@ thead, tbody{
     }
     section{
         flex-direction: column;
+    }
+    table{
+        font-size: 14px;
     }
 }
