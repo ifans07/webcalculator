@@ -8,50 +8,57 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="bg"></div>
+    <div class="bg2">
+        <p>kalkulator</p>
+    </div>
+
     <div class="container">
         <div class="display">
             <div class="angka-wrapper">
-                <span id="first-number" class="calculator-screen">0</span>
-                <span id="operasi">___</span>
                 <span id="second-number">0</span>
+                <span id="operasi">___</span>
+                <span id="first-number" class="calculator-screen">0</span>
             </div>
-            <hr>
             <div class="hasil-wrapper">
                 <span id="hasil"></span>
             </div>
         </div>
         <div class="button-wrapper">
-            <div class="number buttons top all-clear">AC</div>
-            <div class="number buttons top">+/-</div>
+            <div class="number top all-clear">AC</div>
+            <div class="number top negative">+/-</div>
         </div>
         <div class="button-wrapper">
-            <div class="number buttons" value="7">7</div>
-            <div class="number buttons" value="8">8</div>
-            <div class="number buttons" value="9">9</div>
-            <div class="number operator" value="/">&divide;</div>
+            <div class="number buttons">7</div>
+            <div class="number buttons">8</div>
+            <div class="number buttons">9</div>
+            <div class="number operator">&divide;</div>
         </div>
         <div class="button-wrapper">
-            <div class="number buttons" value="4">4</div>
-            <div class="number buttons" value="5">5</div>
-            <div class="number buttons" value="6">6</div>
-            <div class="number operator" value="*">&times;</div>
+            <div class="number buttons">4</div>
+            <div class="number buttons">5</div>
+            <div class="number buttons">6</div>
+            <div class="number operator">&times;</div>
         </div>
         <div class="button-wrapper">
-            <div class="number buttons" value="1">1</div>
-            <div class="number buttons" value="2">2</div>
-            <div class="number buttons" value="3">3</div>
-            <div class="number operator" value="-">-</div>
+            <div class="number buttons">1</div>
+            <div class="number buttons">2</div>
+            <div class="number buttons">3</div>
+            <div class="number operator">-</div>
         </div>
         <div class="button-wrapper">
-            <div class="number buttons" value="0">0</div>
-            <div class="number buttons decimal" value=".">.</div>
-            <div class="number buttons percentage" value="%">%</div>
-            <div class="number operator" value="+">+</div>
+            <div class="number buttons">0</div>
+            <div class="number decimal">.</div>
+            <div class="number percentage">%</div>
+            <div class="number operator">+</div>
         </div>
         <div class="button-wrapper">
-            <div class="number equals" value="=">=</div>
+            <div class="number equals">=</div>
         </div>
     </div>
+
+    <div class="bg3"></div>
+    <div class="bg4"></div>
     <script src="script.js"></script>
 </body>
 </html>
