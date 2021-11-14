@@ -120,11 +120,14 @@ section{
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.card{
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    /* justify-content: center;
-    align-items: center; */
 }
 .display{
     width: 100%;
@@ -176,6 +179,31 @@ section{
 .equals:hover{
     background-color: #ffba08;
 }
+
+.history-wrapper{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #faa307;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    color: white;
+}
+.card-history h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+table{
+    font-size: 24px;
+}
+.card-history{
+    display: flex;
+    flex-direction: column;
+}
+thead, tbody{
+    text-align: center;
+}
+
 @media only screen and (max-width: 1140px){
     .bg4{
         display: none;
@@ -214,6 +242,9 @@ section{
     .bg2 p{
         display: none;
     }
+    section{
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 600px){
     .bg{
@@ -230,5 +261,8 @@ section{
     }
     .bg2 p{
         display: none;
+    }
+    section{
+        flex-direction: column;
     }
 }

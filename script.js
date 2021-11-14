@@ -138,8 +138,18 @@ const calculate = () => {
         default:
             break;
     }
+    const history = {
+        firstNumber: prevNumber,
+        secondNumber: currentNumber,
+        operator: calculationOperator,
+        result: result
+    }
+    putHistory(history);
+    renderHistory();
+
     resultScreen(currentNumber = result);
     calculationOperator = '';
+
 }
 
 const hasil = document.getElementById("hasil");
