@@ -107,10 +107,8 @@ operators.forEach((operator) => {
 })
 function clearVar(name = "") {
     // nextNumber += currentNumber + " " + name + " ";
-    if(calculatorScreen.innerText === currentNumber){
-        hasil.innerText += currentNumber
-    }
     secondNumber.innerText = prevNumber;
+    currentNumber = '';
     calculatorScreen.innerText = currentNumber;
     // dis2Num = "";
     // tempResultEl.innerText = result;
