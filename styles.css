@@ -176,17 +176,21 @@ section{
 .equals:hover{
     background-color: #ffba08;
 }
-
-@media only screen and (max-width: 992px){
-    /* .bg{
+@media only screen and (max-width: 1140px){
+    .bg4{
         display: none;
-    } */
+    }
+}
+@media only screen and (max-width: 992px){
+    .bg{
+        display: none;
+    }
     .bg2{
         display: none;
     }
-    /* .bg3{
+    .bg3{
         display: none;
-    } */
+    }
     .bg4{
         display: none;
     }
